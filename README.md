@@ -58,5 +58,5 @@ Open **http://localhost:3000** in multiple browser tabs to test real-time commun
 This project is **open-source** and free to use.
 
 ---
-💻 Developed with ❤️ by **Your Name**
+💻 Developed with ❤️ by **CHETAN BHAT**
 
