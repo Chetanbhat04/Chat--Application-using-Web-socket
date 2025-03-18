@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e5ddd5; /* WhatsApp background color */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #075e54; /* WhatsApp header color */
+    width: 100%;
+    padding: 10px;
+    color: white;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+/* Chat Container */
+.container {
+    max-width: 600px;
+    width: 100%;
+    height: 70vh;
+    overflow-y: auto;
+    background-color: #efe7dd;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Message Bubbles */
+.message {
+    padding: 8px 12px;
+    margin: 5px;
+    max-width: 75%;
+    border-radius: 8px;
+    word-wrap: break-word;
+    font-size: 14px;
+    position: relative;
+}
+
+/* Left-aligned Messages (Received) */
+.left {
+    background-color: #ffffff;
+    align-self: flex-start;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Right-aligned Messages (Sent) */
+.right {
+    background-color: #dcf8c6;
+    align-self: flex-end;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Message Input and Send Button */
+.send {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+#send-container {
+    display: flex;
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+
+#messageInp {
+    flex: 1;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+.btn {
+    padding: 10px 15px;
+    border: none;
+    background-color: #25d366; /* WhatsApp Green */
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 8px;
+    font-size: 16px;
+}
