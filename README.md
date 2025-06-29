@@ -1,4 +1,4 @@
-# 📢 Real-Time Chat Application
+# 📢 Socket.io- Based Live Chat System
 
 This is a simple real-time chat application built using **Node.js**, **Express.js**, **Socket.io**, and **HTML/CSS/JavaScript**. It allows multiple users to join a chat room and exchange messages instantly.
 
